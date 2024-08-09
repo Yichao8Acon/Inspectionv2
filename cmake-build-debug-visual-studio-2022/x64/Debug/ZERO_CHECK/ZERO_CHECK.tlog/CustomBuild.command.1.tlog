@@ -1,0 +1,10 @@
+^C:\USERS\YICHAO.QIN\CLIONPROJECTS\INSPECTIONV2\CMAKE-BUILD-DEBUG-VISUAL-STUDIO-2022\CMAKEFILES\2C84A909F1DBA4E62D9DA6968D582EEC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/yichao.qin/CLionProjects/Inspectionv2 -BC:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022/Inspectionv2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

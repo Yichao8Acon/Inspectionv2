@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022\Inspectionv2_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\src\ObjectLocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022\Inspectionv2_autogen\EWIEGA46WW\qrc_resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022\Inspectionv2_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022\Inspectionv2_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022\Inspectionv2_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\src\ObjectLocator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022\CMakeFiles\5b9b5d3a1a518b96368d625f53d7ba9f\qrc_resource.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\resource.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{914ACB90-769A-3410-9148-C3E189A1999C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0567E12D-31E0-3DD0-B202-1BA5DE1C6E56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35026475-8DDF-3B01-AB91-25986C3A3268}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+^C:\USERS\YICHAO.QIN\CLIONPROJECTS\INSPECTIONV2\CMAKE-BUILD-DEBUG-VISUAL-STUDIO-2022\CMAKEFILES\5B9B5D3A1A518B96368D625F53D7BA9F\QRC_RESOURCE.CPP.RULE
+setlocal
+cd C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc C:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022/CMakeFiles/Inspectionv2_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc C:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022/CMakeFiles/Inspectionv2_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc C:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022/CMakeFiles/Inspectionv2_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_autorcc C:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022/CMakeFiles/Inspectionv2_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YICHAO.QIN\CLIONPROJECTS\INSPECTIONV2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/yichao.qin/CLionProjects/Inspectionv2 -BC:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022 --check-stamp-file C:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

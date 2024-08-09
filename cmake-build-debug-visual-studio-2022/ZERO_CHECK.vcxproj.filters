@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022\CMakeFiles\2c84a909f1dba4e62d9da6968d582eec\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\yichao.qin\CLionProjects\Inspectionv2\resource.qrc">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{914ACB90-769A-3410-9148-C3E189A1999C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files">
+      <UniqueIdentifier>{EE69AD6E-53A1-3B83-A2DA-3B0AC8EAFDB2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

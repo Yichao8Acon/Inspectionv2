@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -G "Visual Studio 17 2022" -S C:\Users\yichao.qin\CLionProjects\Inspectionv2 -B C:\Users\yichao.qin\CLionProjects\Inspectionv2\cmake-build-debug-visual-studio-2022
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19044.
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (5.6s)
+-- Generating done (1.6s)
+-- Build files have been written to: C:/Users/yichao.qin/CLionProjects/Inspectionv2/cmake-build-debug-visual-studio-2022
