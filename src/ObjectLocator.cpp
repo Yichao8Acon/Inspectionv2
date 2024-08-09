@@ -1,6 +1,6 @@
 #include "ObjectLocator.hpp"
 
-cv::Mat ObjectLocator::computeMask(cv::Mat &srcImg) {
+cv::Mat ObjectLocator::preprocess(cv::Mat &srcImg) {
     cv::Mat blurredImg,
             imageMask,
             hsvImage;

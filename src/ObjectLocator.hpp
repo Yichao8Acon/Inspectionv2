@@ -7,12 +7,21 @@ class ObjectLocator {
 
 public:
     /**
-    * Blur and filter out selected HSV color
+    * Performs image preprocess.\n
+    * This function takes an Mat and performs blurring, HSV color filtering, and morphology process.
     * @param input source image loaded in cv::Mat
     * @return processed image
     */
-    cv::Mat computeMask(cv::Mat &srcImg);
+    cv::Mat preprocess(cv::Mat &srcImg);
 
+    /**
+    * Detects all rectangles in the image.\n
+    * This function takes a source Mat and detects rectangles with rotations by finding contours and filtering out boundingBox by size.
+    * @param input source image loaded in cv::Mat
+    * @return vector of detected rotated rectangles.
+    * @note The returned rotated rectangles are boundingBoxes containing the detected rectangles.\n
+    *       It is not guaranteed that these bounding boxes will tightly fit because of the rotations.
+    */
     std::vector<cv::RotatedRect> findRectangleVects(cv::Mat &srcImg);
 
     void getRotatedCroppedShape(cv::Mat &src, cv::RotatedRect &rect);
