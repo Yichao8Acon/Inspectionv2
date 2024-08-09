@@ -8,10 +8,8 @@ class ObjectLocator {
 public:
     /**
     * Blur and filter out selected HSV color
-    *
     * @param input source image loaded in cv::Mat
     * @return processed image
-    *
     */
     cv::Mat computeMask(cv::Mat &srcImg);
 
